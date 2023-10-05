@@ -19,6 +19,9 @@ const Home=()=>{
                     </ul>
                 </nav>
             </header>
+            <section>
+                <h1>Home Page</h1>
+            </section>
         </>
     )
 }
