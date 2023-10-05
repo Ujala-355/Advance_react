@@ -1,14 +1,21 @@
-import React from "react"
+import React from "react";
+import {Link} from "react-router-dom";
 const Home=()=>{
     return(
         <>  
             <header>
-                <a href="#">Logo</a>
+                <a href="#" className="text">Logo</a>
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li>
+                            <Link className="text" to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link className="text" to="/about">About</Link>
+                        </li>
+                        <li>
+                            <Link className="text" to="/cantact">Contact</Link>
+                        </li>
                     </ul>
                 </nav>
             </header>
