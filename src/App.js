@@ -1,14 +1,18 @@
-// import Toggle from "./useState";
-// import Counter from "./useState_Count";
-// import FetchData from "./useEffect1";
-import Router from "./Router"
+import React from "react";
+import { BrowserRouter,Route,Routes } from "react-router-dom";
+import Home from "./Home"
+import About from "./About"
+import Cantact from "./Contact"
 function App() {
   return (
     <>
-        {/* <Toggle/> */}
-        {/* <Counter/> */}
-        {/* <FetchData/> */}
-        <Router/>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route path="/cantact" element={<Cantact/>}/>
+            </Routes>
+        </BrowserRouter>
     </>
   );
 }
