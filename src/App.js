@@ -4,8 +4,8 @@ import FetchData from "./useEffect1";
 function App() {
   return (
     <>
-      {/* <Toggle/> */}
-      {/* <Counter/> */}
+        {/* <Toggle/> */}
+        {/* <Counter/> */}
         <FetchData/>
     </>
   );
