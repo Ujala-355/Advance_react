@@ -20,7 +20,7 @@ const Contact=()=>{
                 </nav>
             </header>
             <section>
-                <h1>Cantact Page</h1>
+                <h1>Cantact Rage</h1>
             </section>
         </>
     )
