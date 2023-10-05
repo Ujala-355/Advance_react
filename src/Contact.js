@@ -1,28 +1,28 @@
 import React from "react";
-import {Link} from "react-router-dom";
-const Contact=()=>{
+import {NavLink} from "react-router-dom";
+const Cantact=()=>{
     return(
-        <>  
+        <>
             <header>
-                <a href="#" className="text">Logo</a>
+                <a href="#">Logo</a>
                 <nav>
                     <ul>
                         <li>
-                            <Link className="text" to="/">Home</Link>
+                            <NavLink className="text" to="/">Home</NavLink>
                         </li>
                         <li>
-                            <Link className="text" to="/about">About</Link>
+                            <NavLink className="text" to="/about">About</NavLink>
                         </li>
                         <li>
-                            <Link className="text" to="/cantact">Contact</Link>
+                            <NavLink className="text" to="/cantact">Cantact</NavLink>
                         </li>
                     </ul>
                 </nav>
             </header>
             <section>
-                <h1>Cantact Rage</h1>
+                <h1>Cantact Page</h1>
             </section>
         </>
     )
 }
-export default Contact;
+export default Cantact;
