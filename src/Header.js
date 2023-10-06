@@ -15,6 +15,9 @@ const Header=()=>{
                         <li>
                             <NavLink to="/cantact">Cantant</NavLink>
                         </li>
+                        <li>
+                            <NavLink to="/deshboard">Deshboard</NavLink>
+                        </li>
                     </ul>
                 </nav>
             </header>

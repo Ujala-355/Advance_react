@@ -3,6 +3,7 @@ import { BrowserRouter,Route,Routes } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Cantact from "./Contact";
+import Deshboard from "./Deshboard"
 import Error from "./Error";
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
                 <Route path="/" element={<Home/>}>
                   <Route path="/about" element={<About/>}/>
                   <Route path="/cantact" element={<Cantact/>}/>
+                  <Route path="/deshboard" element={<Deshboard/>}/>
                   <Route path="*" element={<Error/>}/>
                 </Route>
             </Routes>
