@@ -5,15 +5,15 @@ const Header=()=>{
             <header>
                 <a href="#">Logo</a>
                 <nav>
-                    <ul>
+                    <ul Style="list-style-type:none;">
                         <li>
-                            <NavLink className="text" to="/">Home</NavLink>
+                            <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink className="text" to="/about">About</NavLink>
+                            <NavLink to="/about">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="text" to="/cantact">Cantant</NavLink>
+                            <NavLink to="/cantact">Cantant</NavLink>
                         </li>
                     </ul>
                 </nav>
