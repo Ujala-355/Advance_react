@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Checkbox,Radio,Slider} from "@material-ui/core";
+import RangeSlider from "./RangeSlider";
 const App = () => {
   const [name, setName] = useState([]);
   const [gender,setGender]=useState("Girl")
@@ -90,6 +91,7 @@ const App = () => {
                 // orientation="vertical"
             />
         </div>
+        <RangeSlider/>
     </>
   );
 };
