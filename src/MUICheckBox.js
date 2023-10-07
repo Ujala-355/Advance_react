@@ -13,6 +13,32 @@ const App = () => {
         console.log(e.target.value);
         setGender(e.target.value)
     }
+    const mark=[
+        {
+            value:0,
+            label:"start"
+        },
+        {
+            value:100,
+            label:"middle"
+        },
+        {
+            value:100,
+            label:"middle"
+        }
+        ,
+        {
+            value:200,
+            label:"Stop"
+        },
+        {
+            value:55,
+            label:"custom"
+        }
+    ]
+    const getValueSlider=(e,val)=>{
+        console.log(val)
+    }
 
   return (
     <>
@@ -42,12 +68,28 @@ const App = () => {
             checked={gender==="other"}
         />
         <span>Other</span>
-
-        <h1>Slider</h1>
-        <Slider
-            color="secondary"
-            style={{width:900}}
+        <div>
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-QXcSI-MCT0ygb0XQbYsoWxaaZMos5zJ7wg&usqp=CAU"
+            alt="Your Image"
+            style={{ verticalAlign: 'top', maxHeight: '100%' }}
         />
+</div>
+        <div>
+            <h1>Slider</h1>
+            <Slider
+                color="secondary"
+                style={{width:400, margin:40}}
+                defaultValue={100}
+                valueLabelDisplay="auto"
+                step={10}
+                max={200}
+                marks={mark}
+                onChange={getValueSlider}
+                orientation="horizontal"
+                // orientation="vertical"
+            />
+        </div>
     </>
   );
 };
