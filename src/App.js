@@ -1,14 +1,16 @@
 import React from "react";
-import { BrowserRouter,Route,Routes } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Cantact from "./Contact";
-import Deshboard from "./Deshboard"
-import Error from "./Error";
+// import { BrowserRouter,Route,Routes } from "react-router-dom";
+// import Home from "./Home";
+// import About from "./About";
+// import Cantact from "./Contact";
+// import Deshboard from "./Deshboard"
+// import Error from "./Error";
+import Checkbox from "./MUICheckBox"
 function App() {
   return (
     <>
-        <BrowserRouter>
+        <Checkbox/>
+        {/* <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}>
                   <Route path="/about" element={<About/>}/>
@@ -17,8 +19,9 @@ function App() {
                   <Route path="*" element={<Error/>}/>
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
     </>
   );
 }
 export default App;
+  

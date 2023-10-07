@@ -15,9 +15,7 @@ const About=()=>{
                 <h1>About Page</h1>
                 <Button onClick={handle} variant="contained" style={buttonStyle}>Go to Cantact</Button>
                 <Button onClick={()=>navigate(-1)} variant="contained">Go back</Button>
-                
             </section>
-    
         </>
     )
 }
