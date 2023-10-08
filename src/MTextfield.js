@@ -1,8 +1,11 @@
 import React from "react";
-import {TextField, Typography} from "@material-ui/core";
+import {TextField, Typography,Switch} from "@material-ui/core";
 const Textfield=()=>{
     const get_Data=(e)=>{
         console.log(e.target.value)
+    }
+    const get_val=(e,val)=>{
+        console.warn(val)
     }
     return(
         <>
@@ -14,6 +17,16 @@ const Textfield=()=>{
             onChange={get_Data}
         
             ></TextField>
+            <Typography variant="h3">Switch</Typography>
+            <Switch
+                color="secondary"
+                size="small"
+                onChange={get_val}
+            />
+            <Switch
+                color="primary"
+                size="medium"
+            />
         </>
     )
 }
