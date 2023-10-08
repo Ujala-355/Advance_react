@@ -15,7 +15,6 @@ const RangeSlider=()=>{
                     onChange={updateVal}
                     variant="secondary"
                 />
-
             </div>
         </>
     )
