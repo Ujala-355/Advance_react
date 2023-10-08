@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Checkbox,Radio,Slider} from "@material-ui/core";
+import { Checkbox,Radio,Slider,Box ,Button,Typography} from "@material-ui/core";
 import RangeSlider from "./RangeSlider";
 import Select_Opstion from "./Mselect"
 import Textfield from "./MTextfield"
@@ -44,7 +44,17 @@ const App = () => {
     }
 
   return (
-    <>
+    <>  
+        <Typography>Layout | Box</Typography>
+            <Box component="span" style={{color:"blue"}} clone m={0}>
+                    <Button >Layout</Button>
+            </Box>
+            <Box component="span" style={{color:"blue"}} clone m={0}>
+                <Button>Home</Button>
+            </Box>
+            <Box component="span" style={{color:"blue"}} clone m={0}>
+                <Button>Document</Button>
+            </Box>
         <h1>CheckBox</h1>
         <Checkbox color="primary" value="Vikas" onChange={(e) => getValue(e)} />
         <Checkbox color="primary" value="Vishal" onChange={(e)=>{getValue(e)}}/>

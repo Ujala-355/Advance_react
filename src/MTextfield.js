@@ -1,5 +1,5 @@
 import React from "react";
-import {TextField, Typography,Switch} from "@material-ui/core";
+import {TextField, Typography, Switch} from "@material-ui/core";
 const Textfield=()=>{
     const get_Data=(e)=>{
         console.log(e.target.value)
@@ -17,6 +17,7 @@ const Textfield=()=>{
             onChange={get_Data}
         
             ></TextField>
+
             <Typography variant="h3">Switch</Typography>
             <Switch
                 color="secondary"
