@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Checkbox,Radio,Slider,Box ,Button,Typography} from "@material-ui/core";
 import RangeSlider from "./RangeSlider";
-import Select_Opstion from "./Mselect"
-import Textfield from "./MTextfield"
+import Select_Opstion from "./MselectMenu";
+import Textfield from "./MTextfield";
+import MyContainer from "./MContainer"
+import MyGrid from "./Grid"
 const App = () => {
   const [name, setName] = useState([]);
   const [gender,setGender]=useState("Girl")
@@ -46,15 +48,19 @@ const App = () => {
   return (
     <>  
         <Typography>Layout | Box</Typography>
-            <Box component="span" style={{color:"blue"}} clone m={0}>
-                    <Button >Layout</Button>
-            </Box>
-            <Box component="span" style={{color:"blue"}} clone m={0}>
-                <Button>Home</Button>
-            </Box>
-            <Box component="span" style={{color:"blue"}} clone m={0}>
-                <Button>Document</Button>
-            </Box>
+        <Box component="span" style={{color:"blue"}} clone m={0}>
+            <Button >Layout</Button>
+        </Box>
+        <Box component="span" style={{color:"blue"}} clone m={0}>
+            <Button>Home</Button>
+        </Box>
+        <Box component="span" style={{color:"blue"}} clone m={0}>
+            <Button>Document</Button>
+        </Box>
+
+        <h1>Grid (create 12 Box)</h1>
+        <MyGrid/>
+
         <h1>CheckBox</h1>
         <Checkbox color="primary" value="Vikas" onChange={(e) => getValue(e)} />
         <Checkbox color="primary" value="Vishal" onChange={(e)=>{getValue(e)}}/>
@@ -106,6 +112,7 @@ const App = () => {
         <RangeSlider/>
         <Select_Opstion/>
         <Textfield/>
+        <MyContainer/>
     </>
   );
 };
