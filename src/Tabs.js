@@ -18,12 +18,12 @@ const MyTabs=()=>{
                         <Tab label="Item 3"/>
                     </Tabs>
                 </AppBar>
-                <TabPanel value={value} index={0}>Item One Detail</TabPanel>
+                <TabPanel value={value} index={0}>Item One Details</TabPanel>
                 <TabPanel value={value} index={1}>Item Two Details</TabPanel>
                 <TabPanel value={value} index={2}>Item three Details</TabPanel>
             </div>
-            <h1>Tab, Tabs, AppBar</h1>
             <img src="https://freepngimg.com/thumb/cartoon/7-2-cartoon-picture.png" width="400px" height="400px"/>
+            <h1>Tab, Tabs, AppBar TabPanel</h1>
             
         </>
     )
