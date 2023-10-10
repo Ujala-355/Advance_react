@@ -5,11 +5,13 @@ import React from "react";
 // import Cantact from "./Contact";
 // import Deshboard from "./Deshboard"
 // import Error from "./Error";
-import Checkbox from "./MUICheckBox"
+// import Checkbox from "./MUICheckBox"
+import MyTabs from "./Tabs";
 function App() {
   return (
     <>
-        <Checkbox/>
+        <MyTabs/>
+        {/* <Checkbox/> */}
         {/* <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}>

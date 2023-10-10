@@ -5,6 +5,7 @@ import Select_Opstion from "./MselectMenu";
 import Textfield from "./MTextfield";
 import MyContainer from "./MContainer"
 import MyGrid from "./Grid"
+
 const App = () => {
   const [name, setName] = useState([]);
   const [gender,setGender]=useState("Girl")
@@ -112,7 +113,8 @@ const App = () => {
         <RangeSlider/>
         <Select_Opstion/>
         <Textfield/>
-        <MyContainer/>
+        
+        <MyContainer/> 
     </>
   );
 };
