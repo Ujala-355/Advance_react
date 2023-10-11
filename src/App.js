@@ -6,11 +6,15 @@ import React from "react";
 // import Deshboard from "./Deshboard"
 // import Error from "./Error";
 // import Checkbox from "./MUICheckBox"
-import MyTabs from "./Tabs";
+// import MyTabs from "./Tabs";
+// import  MenuRouting from "./MenuWithRouting";
+import Icon from "./Icon"
 function App() {
   return (
     <>
-        <MyTabs/>
+        <Icon/>
+        {/* < MenuRouting/> */}
+        {/* <MyTabs /> */}
         {/* <Checkbox/> */}
         {/* <BrowserRouter>
             <Routes>
