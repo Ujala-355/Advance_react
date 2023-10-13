@@ -8,11 +8,12 @@ import React from "react";
 // import Checkbox from "./MUICheckBox"
 // import MyTabs from "./Tabs";
 // import  MenuRouting from "./MenuWithRouting";
-import Icon from "./Icon"
+// import Icon from "./Icon"
+import UseRef from "./useRef";
 function App() {
   return (
     <>
-        <Icon/>
+        {/* <Icon/> */}
         {/* < MenuRouting/> */}
         {/* <MyTabs /> */}
         {/* <Checkbox/> */}
@@ -26,6 +27,7 @@ function App() {
                 </Route>
             </Routes>
         </BrowserRouter> */}
+        <UseRef/>
     </>
   );
 }
