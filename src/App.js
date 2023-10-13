@@ -9,7 +9,8 @@ import React from "react";
 // import MyTabs from "./Tabs";
 // import  MenuRouting from "./MenuWithRouting";
 // import Icon from "./Icon"
-import UseRef from "./useRef";
+// import UseRef from "./useRef";
+import Parent from "./useImperP"
 function App() {
   return (
     <>
@@ -27,7 +28,8 @@ function App() {
                 </Route>
             </Routes>
         </BrowserRouter> */}
-        <UseRef/>
+        {/* <UseRef/> */}
+        <Parent/>
     </>
   );
 }
