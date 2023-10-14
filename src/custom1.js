@@ -1,7 +1,8 @@
 import React,{useState} from "react";
-import UseLogger from "./useLogger"
-const Custom=(props)=>{
-    const [name,setName]=useState("")
+import UseLogger from "./useLogger";
+import useLocalStorage from "./useLocalStorage";
+const Custom=()=>{
+    const [name,setName]=useLocalStorage('name',"")
     UseLogger(name)
     return(
         <>
