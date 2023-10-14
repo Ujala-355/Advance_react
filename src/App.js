@@ -5,12 +5,14 @@ import React from "react";
 // import Cantact from "./Contact";
 // import Deshboard from "./Deshboard"
 // import Error from "./Error";
+
 // import Checkbox from "./MUICheckBox"
 // import MyTabs from "./Tabs";
 // import  MenuRouting from "./MenuWithRouting";
 // import Icon from "./Icon"
 // import UseRef from "./useRef";
-import Parent from "./useImperP"
+// import Parent from "./useImperP"
+import UseLayOut from "./useLayOut";
 function App() {
   return (
     <>
@@ -29,7 +31,9 @@ function App() {
             </Routes>
         </BrowserRouter> */}
         {/* <UseRef/> */}
-        <Parent/>
+        {/* <Parent/> */}
+        <UseLayOut/>
+
     </>
   );
 }
