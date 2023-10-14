@@ -12,7 +12,8 @@ import React from "react";
 // import Icon from "./Icon"
 // import UseRef from "./useRef";
 // import Parent from "./useImperP"
-import UseLayOut from "./useLayOut";
+// import UseLayOut from "./useLayOut";
+import Custom from "./custom1";
 function App() {
   return (
     <>
@@ -32,8 +33,8 @@ function App() {
         </BrowserRouter> */}
         {/* <UseRef/> */}
         {/* <Parent/> */}
-        <UseLayOut/>
-
+        {/* <UseLayOut/> */}
+        <Custom/>
     </>
   );
 }
