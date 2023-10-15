@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 const getSavedValue = (key, value) => {
   const savedValue = JSON.parse(localStorage.getItem(key));
   if (savedValue !== null) {

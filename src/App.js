@@ -14,6 +14,7 @@ import React from "react";
 // import Parent from "./useImperP"
 // import UseLayOut from "./useLayOut";
 import Custom from "./custom1";
+import ShowHideToggle from "./ShowHideToggle"
 function App() {
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
         {/* <Parent/> */}
         {/* <UseLayOut/> */}
         <Custom/>
+        <ShowHideToggle/>
     </>
   );
 }
