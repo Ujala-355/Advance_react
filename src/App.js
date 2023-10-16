@@ -13,8 +13,9 @@ import React from "react";
 // import UseRef from "./useRef";
 // import Parent from "./useImperP"
 // import UseLayOut from "./useLayOut";
-import Custom from "./custom1";
-import ShowHideToggle from "./ShowHideToggle"
+// import Custom from "./custom1";
+// import ShowHideToggle from "./ShowHideToggle"
+import UncontrolledInput from "./uncontrolled"
 function App() {
   return (
     <>
@@ -35,8 +36,9 @@ function App() {
         {/* <UseRef/> */}
         {/* <Parent/> */}
         {/* <UseLayOut/> */}
-        <Custom/>
-        <ShowHideToggle/>
+        {/* <Custom/>
+        <ShowHideToggle/> */}
+        <UncontrolledInput/>
     </>
   );
 }
