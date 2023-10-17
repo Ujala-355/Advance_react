@@ -16,7 +16,8 @@ import React from "react";
 // import Custom from "./custom1";
 // import ShowHideToggle from "./ShowHideToggle"
 // import UncontrolledInput from "./uncontrolled"
-import UseReducer from "./useReducer" 
+// import UseReducer from "./useReducer" 
+import A from "./contextA"
 function App() {
   return (
     <>
@@ -39,7 +40,8 @@ function App() {
         {/* <UseLayOut/> */}
         {/* <Custom/>
         <ShowHideToggle/> */}
-        <UseReducer/>
+        {/* <UseReducer/> */}
+        <A/>
     </>
   );
 }
