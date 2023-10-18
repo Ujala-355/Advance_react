@@ -17,7 +17,8 @@ import React from "react";
 // import ShowHideToggle from "./ShowHideToggle"
 // import UncontrolledInput from "./uncontrolled"
 // import UseReducer from "./useReducer" 
-import A from "./contextA"
+// import A from "./contextA"
+import Checker from "./useReducerEvenOdd"
 function App() {
   return (
     <>
@@ -41,7 +42,8 @@ function App() {
         {/* <Custom/>
         <ShowHideToggle/> */}
         {/* <UseReducer/> */}
-        <A/>
+        {/* <A/> */}
+        <Checker/>
     </>
   );
 }
