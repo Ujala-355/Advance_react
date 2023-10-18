@@ -18,7 +18,8 @@ import React from "react";
 // import UncontrolledInput from "./uncontrolled"
 // import UseReducer from "./useReducer" 
 // import A from "./contextA"
-import Checker from "./useReducerEvenOdd"
+// import Checker from "./useReducerEvenOdd"
+import ComBox from "./Autocomplete"
 function App() {
   return (
     <>
@@ -43,7 +44,8 @@ function App() {
         <ShowHideToggle/> */}
         {/* <UseReducer/> */}
         {/* <A/> */}
-        <Checker/>
+        {/* <Checker/> */}
+        <ComBox/>
     </>
   );
 }
