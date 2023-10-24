@@ -20,7 +20,8 @@ import React from "react";
 // import A from "./contextA"
 // import Checker from "./useReducerEvenOdd"
 // import ComBox from "./Autocomplete"
-import Parent from "./toParent"
+// import Parent from "./toParent"
+import BasicBreadcrumbs from "./breadcrumbs"
 function App() {
   return (
     <>
@@ -47,7 +48,8 @@ function App() {
         {/* <A/> */}
         {/* <Checker/> */}
         {/* <ComBox/> */}
-        <Parent/>
+        {/* <Parent/> */}
+        <BasicBreadcrumbs/>
     </>
   );
 }
