@@ -19,14 +19,15 @@ import React from "react";
 // import UseReducer from "./useReducer" 
 // import A from "./contextA"
 // import Checker from "./useReducerEvenOdd"
-import ComBox from "./Autocomplete"
+// import ComBox from "./Autocomplete"
+import Parent from "./toParent"
 function App() {
   return (
     <>
         {/* <Icon/> */}
         {/* < MenuRouting/> */}
         {/* <MyTabs /> */}
-        {/* <Checkbox/> */}
+        {/* // <Checkbox/> */}
         {/* <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}>
@@ -45,7 +46,8 @@ function App() {
         {/* <UseReducer/> */}
         {/* <A/> */}
         {/* <Checker/> */}
-        <ComBox/>
+        {/* <ComBox/> */}
+        <Parent/>
     </>
   );
 }
