@@ -8,7 +8,7 @@ const BasicBreadcrumbs=()=>{
     return(
         <>
             <div role="presentation" onClick={handleClick}>
-                <Breadcrumbs aria-label="breadcrumb"  separator={<NavigateNextIcon fontSize="small"/>}>
+                <Breadcrumbs aria-label="breadcrumb" maxItems={1}  separator={<NavigateNextIcon fontSize="small"/>}>
                     <Link underline='hover' color="inherit" href="/">
                         Home
                     </Link>
