@@ -1,4 +1,5 @@
 import {Breadcrumbs,Link} from '@mui/material';
+import NavigateNextIcon from "@mui/icons-material/NavigateNext"
 const handleClick=(event)=>{
     event.preventDefault();
     console.log("You clicked a breadcrumb. ")
@@ -7,7 +8,7 @@ const BasicBreadcrumbs=()=>{
     return(
         <>
             <div role="presentation" onClick={handleClick}>
-                <Breadcrumbs aria-label="breadcrumb">
+                <Breadcrumbs aria-label="breadcrumb"  separator={<NavigateNextIcon fontSize="small"/>}>
                     <Link underline='hover' color="inherit" href="/">
                         Home
                     </Link>
