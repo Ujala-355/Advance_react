@@ -21,7 +21,9 @@ import React from "react";
 // import Checker from "./useReducerEvenOdd"
 // import ComBox from "./Autocomplete"
 // import Parent from "./toParent"
-import BasicBreadcrumbs from "./breadcrumbs"
+// import BasicBreadcrumbs from "./breadcrumbs"
+import MuiSpeed from "./SpeedDial"
+
 function App() {
   return (
     <>
@@ -49,7 +51,8 @@ function App() {
         {/* <Checker/> */}
         {/* <ComBox/> */}
         {/* <Parent/> */}
-        <BasicBreadcrumbs/>
+        {/* <BasicBreadcrumbs/> */}
+        <MuiSpeed/>
     </>
   );
 }
