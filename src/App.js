@@ -22,7 +22,8 @@ import React from "react";
 // import ComBox from "./Autocomplete"
 // import Parent from "./toParent"
 // import BasicBreadcrumbs from "./breadcrumbs"
-import MuiSpeed from "./SpeedDial"
+// import MuiSpeed from "./SpeedDial"
+import BottomNavigation1 from "./BottomNavigation"
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
         {/* <ComBox/> */}
         {/* <Parent/> */}
         {/* <BasicBreadcrumbs/> */}
-        <MuiSpeed/>
+        {/* <MuiSpeed/> */}
+        <BottomNavigation1/>
     </>
   );
 }
