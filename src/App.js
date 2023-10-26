@@ -23,7 +23,8 @@ import React from "react";
 // import Parent from "./toParent"
 // import BasicBreadcrumbs from "./breadcrumbs"
 // import MuiSpeed from "./SpeedDial"
-import BottomNavigation1 from "./BottomNavigation"
+// import BottomNavigation1 from "./BottomNavigation"
+import Avatar1 from "./Avatar"
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
         {/* <Parent/> */}
         {/* <BasicBreadcrumbs/> */}
         {/* <MuiSpeed/> */}
-        <BottomNavigation1/>
+        {/* <BottomNavigation1/> */}
+        <Avatar1/>
     </>
   );
 }
