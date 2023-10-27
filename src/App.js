@@ -25,7 +25,8 @@ import React from "react";
 // import MuiSpeed from "./SpeedDial"
 // import BottomNavigation1 from "./BottomNavigation"
 // import Avatar1 from "./Avatar"
-import Badge1 from "./Badge"
+// import Badge1 from "./Badge"
+import List1 from "./list"
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
         {/* <MuiSpeed/> */}
         {/* <BottomNavigation1/> */}
         {/* <Avatar1/> */}
-        <Badge1/>
+        {/* <Badge1/> */}
+        <List1/>
     </>
   );
 }
