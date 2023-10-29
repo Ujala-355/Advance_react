@@ -28,7 +28,8 @@ import React from "react";
 // import Badge1 from "./Badge"
 // import List1 from "./list"
 // import MuiTooltip from "./Tooltip"
-import Table1 from "./table"
+// import Table1 from "./table"
+import Alert1 from "./alert"
 
 function App() {
   return (
@@ -64,7 +65,8 @@ function App() {
         {/* <Badge1/> */}
         {/* <List1/> */}
         {/* <MuiTooltip/> */}
-        <Table1/>
+        {/* <Table1/> */}
+        <Alert1/>
     </>
   );
 }
