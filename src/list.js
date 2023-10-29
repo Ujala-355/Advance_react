@@ -1,6 +1,6 @@
 import {Box,List,ListItem,ListItemIcon,ListItemText,Stack,Chip, Avatar} from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
-import FaceIcon from "@mui/icons-material/Face"
+import FaceIcon from "@mui/icons-material/Face";
 const List1=()=>{
     return(
         <>
