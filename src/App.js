@@ -1,5 +1,5 @@
 import React,{useState} from "react"
-import {Snackbar,Button} from "@mui/material"
+import {Snackbar,Button,Alert} from "@mui/material"
 const MuiSnackbar=()=>{
   const  [open,setOpen]=useState(false);
   const handleClose=(event,reason)=>{
@@ -15,11 +15,18 @@ const MuiSnackbar=()=>{
     <>
         <Button onClick={handleClick} variant="contained" >Snackbar Button</Button>
         <Snackbar
-            message="Form Snackbar successfully"
             autoHideDuration={1000}
             open={open}
-            onClose={handleClose}
-        />
+            onClose={handleClose}>
+                <Alert onClose={handleClose} severity="success">
+                    This is a success message
+                </Alert>
+            </Snackbar>
+            <Alert severity="error">This is an error message!</Alert>
+            <Alert severity="warning">This is a warning message!</Alert>
+            <Alert severity="info">This is an information meassage!</Alert>
+            <Alert severity="success">This is a success message!</Alert>
+    
     </>
   )
 }
