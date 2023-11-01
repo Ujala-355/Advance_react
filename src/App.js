@@ -4,7 +4,8 @@ import React from "react"
 // import Skeleton1 from "./Skeleton"
 // import ColorDropdown from "./ColorDropdown";
 // import DocTitleCustom from "./useDocTitleCustom";
-import CounterCustomP from "./useCounterCustomP"
+// import CounterCustomP from "./useCounterCustomP"
+import InputCustom from "./useInputCustomParent"
 const App=()=>{
   return(
     <>
@@ -13,7 +14,8 @@ const App=()=>{
         {/* <Skeleton1/> */}
         {/* <ColorDropdown/> */}
         {/* <DocTitleCustom/> */}
-        <CounterCustomP/>
+        {/* <CounterCustomP/> */}
+        <InputCustom/>
     </>
   )
 }
