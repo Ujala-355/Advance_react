@@ -5,7 +5,8 @@ import React from "react"
 // import ColorDropdown from "./ColorDropdown";
 // import DocTitleCustom from "./useDocTitleCustom";
 // import CounterCustomP from "./useCounterCustomP"
-import InputCustom from "./useInputCustomParent"
+// import InputCustom from "./useInputCustomParent"
+import CurrentTime from "./currentTimes"
 const App=()=>{
   return(
     <>
@@ -15,7 +16,8 @@ const App=()=>{
         {/* <ColorDropdown/> */}
         {/* <DocTitleCustom/> */}
         {/* <CounterCustomP/> */}
-        <InputCustom/>
+        {/* <InputCustom/> */}
+        <CurrentTime/>
     </>
   )
 }
