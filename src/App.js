@@ -6,7 +6,9 @@ import React from "react"
 // import DocTitleCustom from "./useDocTitleCustom";
 // import CounterCustomP from "./useCounterCustomP"
 // import InputCustom from "./useInputCustomParent"
-import CurrentTime from "./currentTimes"
+// import CurrentTime from "./currentTimes"
+// import MyModal from "./modal"
+import Modal1App from "./modal/modal1App"
 const App=()=>{
   return(
     <>
@@ -17,7 +19,10 @@ const App=()=>{
         {/* <DocTitleCustom/> */}
         {/* <CounterCustomP/> */}
         {/* <InputCustom/> */}
-        <CurrentTime/>
+        {/* <CurrentTime/> */}
+        {/* <MyModal/> */}
+        <Modal1App/>
+
     </>
   )
 }
