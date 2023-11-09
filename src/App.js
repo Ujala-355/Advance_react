@@ -11,7 +11,8 @@ import React from "react"
 // import Modal1App from "./modal/modal1App"
 // import Modal2 from "./modal/modal2";
 // import UseLocation from "./useLocation"
-import UseHistory from "./useHistory"
+// import UseHistory from "./useHistory"
+import UseNavigate from "./useNavigate";
 const App=()=>{
   return(
     <>
@@ -27,7 +28,8 @@ const App=()=>{
         {/* <Modal1App/> */}
         {/* <Modal2/> */}
         {/* <UseLocation/> */}
-        <UseHistory/>
+        {/* <UseHistory/> */}
+        <UseNavigate/>
     </>
   )
 }
