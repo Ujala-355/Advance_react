@@ -9,8 +9,8 @@ import React from "react"
 // import CurrentTime from "./currentTimes"
 // import MyModal from "./modal"
 // import Modal1App from "./modal/modal1App"
-import Modal2 from "./modal/modal2";
-
+// import Modal2 from "./modal/modal2";
+import UseLocation from "./useLocation"
 const App=()=>{
   return(
     <>
@@ -24,7 +24,8 @@ const App=()=>{
         {/* <CurrentTime/> */}
         {/* <MyModal/> */}
         {/* <Modal1App/> */}
-        <Modal2/>
+        {/* <Modal2/> */}
+        <UseLocation/>
     </>
   )
 }
