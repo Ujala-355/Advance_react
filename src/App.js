@@ -8,7 +8,9 @@ import React from "react"
 // import InputCustom from "./useInputCustomParent"
 // import CurrentTime from "./currentTimes"
 // import MyModal from "./modal"
-import Modal1App from "./modal/modal1App"
+// import Modal1App from "./modal/modal1App"
+import Modal2 from "./modal/modal2";
+
 const App=()=>{
   return(
     <>
@@ -21,8 +23,8 @@ const App=()=>{
         {/* <InputCustom/> */}
         {/* <CurrentTime/> */}
         {/* <MyModal/> */}
-        <Modal1App/>
-
+        {/* <Modal1App/> */}
+        <Modal2/>
     </>
   )
 }
