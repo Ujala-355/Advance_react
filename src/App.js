@@ -10,7 +10,8 @@ import React from "react"
 // import MyModal from "./modal"
 // import Modal1App from "./modal/modal1App"
 // import Modal2 from "./modal/modal2";
-import UseLocation from "./useLocation"
+// import UseLocation from "./useLocation"
+import UseHistory from "./useHistory"
 const App=()=>{
   return(
     <>
@@ -25,7 +26,8 @@ const App=()=>{
         {/* <MyModal/> */}
         {/* <Modal1App/> */}
         {/* <Modal2/> */}
-        <UseLocation/>
+        {/* <UseLocation/> */}
+        <UseHistory/>
     </>
   )
 }
