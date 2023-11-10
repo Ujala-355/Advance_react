@@ -12,7 +12,8 @@ import React from "react"
 // import Modal2 from "./modal/modal2";
 // import UseLocation from "./useLocation"
 // import UseHistory from "./useHistory"
-import UseNavigate from "./useNavigate";
+// import UseNavigate from "./useNavigate";
+import HOC from "./HOC"
 const App=()=>{
   return(
     <>
@@ -29,7 +30,8 @@ const App=()=>{
         {/* <Modal2/> */}
         {/* <UseLocation/> */}
         {/* <UseHistory/> */}
-        <UseNavigate/>
+        {/* <UseNavigate/> */}
+        <HOC/>
     </>
   )
 }
