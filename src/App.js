@@ -13,7 +13,8 @@ import React from "react"
 // import UseLocation from "./useLocation"
 // import UseHistory from "./useHistory"
 // import UseNavigate from "./useNavigate";
-import HOC from "./HOC"
+// import HOC from "./HOC"
+import Pagination from "./pagination"
 const App=()=>{
   return(
     <>
@@ -31,7 +32,8 @@ const App=()=>{
         {/* <UseLocation/> */}
         {/* <UseHistory/> */}
         {/* <UseNavigate/> */}
-        <HOC/>
+        {/* <HOC/> */}
+        <Pagination/>
     </>
   )
 }
