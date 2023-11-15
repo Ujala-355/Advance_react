@@ -14,7 +14,8 @@ import React from "react"
 // import UseHistory from "./useHistory"
 // import UseNavigate from "./useNavigate";
 // import HOC from "./HOC"
-import Pagination from "./pagination"
+// import Pagination from "./pagination"
+import  MyTooltip from "./tooltip"
 const App=()=>{
   return(
     <>
@@ -33,7 +34,8 @@ const App=()=>{
         {/* <UseHistory/> */}
         {/* <UseNavigate/> */}
         {/* <HOC/> */}
-        <Pagination/>
+        {/* <Pagination/> */}
+        < MyTooltip/>
     </>
   )
 }
