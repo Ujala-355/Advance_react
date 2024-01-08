@@ -1,4 +1,4 @@
-import React from "react"
+// import React from "react"
 // import Dialog1 from "./Dialog"
 // import Progress1 from "./progress"
 // import Skeleton1 from "./Skeleton"
@@ -15,27 +15,38 @@ import React from "react"
 // import UseNavigate from "./useNavigate";
 // import HOC from "./HOC"
 // import Pagination from "./pagination"
-import  MyTooltip from "./tooltip"
+// import  MyTooltip from "./tooltip"
+// const App=()=>{
+//   return(
+//     <>
+//         <Dialog1/> 
+//         <Progress1/> 
+//         <Skeleton1/>
+//         <ColorDropdown/>
+//         <DocTitleCustom/>
+//         <CounterCustomP/>
+//         <InputCustom/>
+//         <CurrentTime/>
+//         <MyModal/>
+//         <Modal1App/>
+//         <Modal2/>
+//         <UseLocation/>
+//         <UseHistory/>
+//         <UseNavigate/>
+//         <HOC/>
+//         <Pagination/>
+//         < MyTooltip/>
+//     </>
+//   )
+// }
+// export default App;
+
+import React from "react";
+import LetterTiles from "./someProject/letterTiles"
 const App=()=>{
   return(
     <>
-        {/* <Dialog1/> */}
-        {/* <Progress1/> */}
-        {/* <Skeleton1/> */}
-        {/* <ColorDropdown/> */}
-        {/* <DocTitleCustom/> */}
-        {/* <CounterCustomP/> */}
-        {/* <InputCustom/> */}
-        {/* <CurrentTime/> */}
-        {/* <MyModal/> */}
-        {/* <Modal1App/> */}
-        {/* <Modal2/> */}
-        {/* <UseLocation/> */}
-        {/* <UseHistory/> */}
-        {/* <UseNavigate/> */}
-        {/* <HOC/> */}
-        {/* <Pagination/> */}
-        < MyTooltip/>
+        <LetterTiles/>
     </>
   )
 }
