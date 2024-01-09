@@ -42,11 +42,14 @@
 // export default App;
 
 import React from "react";
-import LetterTiles from "./someProject/letterTiles"
+// import LetterTiles from "./someProject/letterTiles"
+import  TicTacToe from "./someProject/TicTacToe"
+
 const App=()=>{
   return(
     <>
-        <LetterTiles/>
+        <TicTacToe/>
+        {/* <LetterTiles/> */}
     </>
   )
 }
