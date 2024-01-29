@@ -41,16 +41,27 @@
 // }
 // export default App;
 
-import React from "react";
-// import LetterTiles from "./someProject/letterTiles"
-import  TicTacToe from "./someProject/TicTacToe"
+// import React from "react";
+// // import LetterTiles from "./someProject/letterTiles"
+// import  TicTacToe from "./someProject/TicTacToe"
 
+// const App=()=>{
+//   return(
+//     <>
+//         <TicTacToe/>
+//         {/* <LetterTiles/> */}
+//     </>
+//   )
+// }
+// export default App;
+
+import React from "react";
+import Slider from './Slider';
 const App=()=>{
-  return(
-    <>
-        <TicTacToe/>
-        {/* <LetterTiles/> */}
-    </>
-  )
+    return(
+        <>
+            <Slider/>
+        </>
+    )
 }
 export default App;
